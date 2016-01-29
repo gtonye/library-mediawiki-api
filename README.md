@@ -34,12 +34,12 @@
 ?>
 ```
   * Then initialize an object with the url of the targeted wiki. The constructor takes a String that represent an url.
-  ```php
+```php
   <?php
       $url = "http://<targeted-wiki>/api.php";
       $mwApi = new MediaWikiApi($url);
   ?>
-  ```
+```
 
 ### Methods
 
